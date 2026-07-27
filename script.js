@@ -174,26 +174,6 @@
     }
   }
 
-  /* ── Header scroll ─────────────────────────────────────────────── */
-  function initHeader() {
-    const hdr      = document.getElementById('site-header');
-    const announce = document.getElementById('announce-bar');
-    if (!hdr) return;
-
-    function sync() {
-      const threshold = announce ? announce.offsetHeight + 20 : 90;
-      if (window.scrollY > threshold) {
-        hdr.classList.add('solid');
-        hdr.classList.remove('glass');
-      } else {
-        hdr.classList.add('glass');
-        hdr.classList.remove('solid');
-      }
-    }
-    window.addEventListener('scroll', sync, { passive: true });
-    sync();
-  }
-
   /* ── Mobile menu ───────────────────────────────────────────────── */
   function initMobileMenu() {
     const btn = document.getElementById('mbtn');
@@ -290,7 +270,6 @@
   /* ── Init ──────────────────────────────────────────────────────── */
   document.addEventListener('DOMContentLoaded', function () {
     cargarContenido();
-    initHeader();
     initMobileMenu();
     initFAQ();
     initSmoothScroll();
