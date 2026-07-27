@@ -23,7 +23,7 @@
       "id": "desafio-01",
       "nombre": "Escuela rural",
       "region": "Región de Valparaíso",
-      "detalle": "[POR DEFINIR]",
+      "detalle": "Comunidad educativa rural de Olmué, integrada por 100 estudiantes y 25 funcionarios, se abastece mediante un camión aljibe que entrega agua dos veces por semana. El desafío busca proponer mejoras para el almacenamiento de agua potable, abordar los malos olores del sistema de aguas grises y reducir las inundaciones que afectan algunos sectores del establecimiento.",
       "imagen": "multimedia/fotos/desafio-01.jpg",
       "alt": "[POR DEFINIR: descripción contextual de la fotografía]"
     },
@@ -31,7 +31,7 @@
       "id": "desafio-02",
       "nombre": "Hogar de personas mayores",
       "region": "Región Metropolitana",
-      "detalle": "[POR DEFINIR]",
+      "detalle": "Hogar de día para personas mayores en situación de vulnerabilidad, ubicado en Quilicura, abastece sus instalaciones mediante un pozo profundo. La baja calidad del agua y las deficiencias en la infraestructura de almacenamiento afectan el funcionamiento del sistema. El desafío busca desarrollar una solución que permita asegurar agua potable para sus residentes, trabajadores y actividades comunitarias.",
       "imagen": "multimedia/fotos/desafio-02.jpg",
       "alt": "[POR DEFINIR: descripción contextual de la fotografía]"
     }
