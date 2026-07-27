@@ -73,6 +73,7 @@
     setImgSrc('logo-isf-organizer',  m.logo_isf);
     setImgSrc('logo-uchile',         m.logo_uchile);
     setImgSrc('foto-terreno',        m.foto_terreno);
+    setImgSrc('foto-estudiantes',     m.foto_estudiantes);
 
     /* Links (all instances) */
     setLink('[data-link="postulacion"]', p.link_postulacion);
