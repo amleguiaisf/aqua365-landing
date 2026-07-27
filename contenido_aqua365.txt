@@ -22,7 +22,7 @@
     {
       "id": "desafio-01",
       "nombre": "Escuela rural",
-      "region": "[POR DEFINIR]",
+      "region": "Región de Valparaíso",
       "detalle": "[POR DEFINIR]",
       "imagen": "multimedia/fotos/desafio-01.jpg",
       "alt": "[POR DEFINIR: descripción contextual de la fotografía]"
@@ -37,12 +37,12 @@
     }
   ],
   "fechas_clave": [
-    { "id": "apertura",           "nombre": "Apertura de postulaciones", "fecha": "[POR DEFINIR]" },
-    { "id": "cierre",             "nombre": "Cierre de postulaciones",   "fecha": "[POR DEFINIR]" },
-    { "id": "inicio",             "nombre": "Inicio del programa",       "fecha": "[POR DEFINIR]" },
-    { "id": "terreno",            "nombre": "Visitas a terreno",         "fecha": "[POR DEFINIR]" },
-    { "id": "mentoria-01",        "nombre": "Primeras mentorías",        "fecha": "[POR DEFINIR]" },
-    { "id": "presentacion-final", "nombre": "Presentación final",        "fecha": "[POR DEFINIR]" }
+    { "id": "apertura",           "nombre": "Apertura de postulaciones", "fecha": "3 de agosto" },
+    { "id": "cierre",             "nombre": "Cierre de postulaciones",   "fecha": "25 de agosto" },
+    { "id": "inicio",             "nombre": "Inicio del programa",       "fecha": "Principios de Septiembre" },
+    { "id": "terreno",            "nombre": "Visitas a terreno",         "fecha": "Principios de Octubre" },
+    { "id": "mentoria-01",        "nombre": "Primeras mentorías",        "fecha": "Octubre" },
+    { "id": "presentacion-final", "nombre": "Presentación final",        "fecha": "Principios de Diciembre" }
   ],
   "multimedia": {
     "logo_aqua365":   "multimedia/logos/aqua365.png",
