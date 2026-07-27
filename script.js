@@ -144,6 +144,9 @@
       }
 
       if (imgEl && des.imagen) {
+        const imgWrap = imgEl.closest('.comm-img');
+        if (imgWrap) imgWrap.classList.remove('no-photo');
+        imgEl.style.display = 'block';
         imgEl.setAttribute('src', des.imagen);
         if (!PENDING(des.alt)) imgEl.setAttribute('alt', des.alt);
         imgEl.onerror = function () {

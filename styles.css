@@ -96,8 +96,8 @@ a { color: inherit; }
 .hero-ov { position: absolute; inset: 0; z-index: 1; background: linear-gradient(to top, rgba(14,41,111,.97) 0%, rgba(14,41,111,.58) 50%, rgba(14,41,111,.2) 100%); }
 .hero-c { position: relative; z-index: 2; padding: 0 0 5.5rem; max-width: 58rem; }
 .ey { display: block; font-family: var(--sans); font-size: .7rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; margin-bottom: 1.25rem; }
-.ey-sky { color: var(--blue); }
-.hero-ey { display: inline-block; background: rgba(255,255,255,.92); padding: .48rem .7rem; border-radius: 2px; margin-bottom: 1.25rem; }
+.ey-sky { color: var(--sky); }
+.hero-ey { display: inline-block; color: var(--blue); background: rgba(255,255,255,.92); padding: .48rem .7rem; border-radius: 2px; margin-bottom: 1.25rem; }
 .ey-teal { color: var(--teal); }
 .ey-aqua { color: var(--aqua); }
 .h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5.6vw, 5rem); font-weight: 600; line-height: 1.03; letter-spacing: -.02em; color: #fff; margin-bottom: 1.5rem; max-width: 18ch; }
@@ -173,7 +173,7 @@ a { color: inherit; }
 .comm-body { padding: 2rem; }
 .ctag { display: block; font-family: var(--sans); font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--sky); margin-bottom: .5rem; }
 .cname { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; color: #fff; margin-bottom: .3rem; }
-.cterr { font-size: .82rem; color: rgba(255,255,255,.4); margin-bottom: 1rem; font-family: var(--sans); }
+.cterr { font-size: .82rem; color: rgba(255,255,255,.72); margin-bottom: 1rem; font-family: var(--sans); }
 .cbody { font-size: .9rem; line-height: 1.65; color: rgba(255,255,255,.72); }
 @media (max-width: 640px) { .comm-grid { grid-template-columns: 1fr; } }
 
