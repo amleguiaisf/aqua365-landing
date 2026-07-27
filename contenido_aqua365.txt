@@ -1,0 +1,62 @@
+{
+  "programa": {
+    "nombre": "AQUA365 - Innovación por el Agua",
+    "anio": "2026",
+    "version": "6",
+    "dedicacion_semanal": "3 horas semanales",
+    "modalidad": "Híbrida, con opción de participación completamente online",
+    "costo": "$0",
+    "correo": "aqua365@isf-chile.org",
+    "link_postulacion": "https://docs.google.com/forms/d/e/1FAIpQLSeHCEtHb5_3_Kumxvfl9p5xmol3zs-gvbi5UszIfeLUGmTVRg/viewform?usp=sharing&ouid=117672066986426709379",
+    "link_bases": "https://drive.google.com/file/d/1jK4JGGPUl907DN6Pfdbn4ZcYrxv3Gf2k/view?usp=sharing",
+    "instagram": "https://www.instagram.com/aqua365.chile/"
+  },
+  "cifras": {
+    "estudiantes_acumulados": "+600",
+    "versiones": "6",
+    "comunidades": "8",
+    "periodo_comunidades": "hasta 2025",
+    "organizaciones_aliadas": "+20"
+  },
+  "desafios": [
+    {
+      "id": "desafio-01",
+      "nombre": "Escuela rural",
+      "region": "[POR DEFINIR]",
+      "detalle": "[POR DEFINIR]",
+      "imagen": "multimedia/fotos/desafio-01.jpg",
+      "alt": "[POR DEFINIR: descripción contextual de la fotografía]"
+    },
+    {
+      "id": "desafio-02",
+      "nombre": "Hogar de personas mayores",
+      "region": "Región Metropolitana",
+      "detalle": "[POR DEFINIR]",
+      "imagen": "multimedia/fotos/desafio-02.jpg",
+      "alt": "[POR DEFINIR: descripción contextual de la fotografía]"
+    }
+  ],
+  "fechas_clave": [
+    { "id": "apertura",           "nombre": "Apertura de postulaciones", "fecha": "[POR DEFINIR]" },
+    { "id": "cierre",             "nombre": "Cierre de postulaciones",   "fecha": "[POR DEFINIR]" },
+    { "id": "inicio",             "nombre": "Inicio del programa",       "fecha": "[POR DEFINIR]" },
+    { "id": "terreno",            "nombre": "Visitas a terreno",         "fecha": "[POR DEFINIR]" },
+    { "id": "mentoria-01",        "nombre": "Primeras mentorías",        "fecha": "[POR DEFINIR]" },
+    { "id": "presentacion-final", "nombre": "Presentación final",        "fecha": "[POR DEFINIR]" }
+  ],
+  "multimedia": {
+    "logo_aqua365":   "multimedia/logos/aqua365.png",
+    "logo_isf":       "multimedia/logos/isf-chile.png",
+    "logo_uchile":    "multimedia/logos/uchile-fcfm.png",
+    "foto_hero":      "multimedia/fotos/hero-aqua365.jpg",
+    "foto_terreno":   "multimedia/fotos/terreno.jpg",
+    "foto_estudiantes": "multimedia/fotos/estudiantes.jpg"
+  },
+  "patrocinadores": [
+    { "nombre": "Bechtel",            "logo": "multimedia/logos/patrocinadores/bechtel.png",           "alt": "Logo de Bechtel" },
+    { "nombre": "Xylem",              "logo": "multimedia/logos/patrocinadores/xylem.png",             "alt": "Logo de Xylem — Let's Solve Water" },
+    { "nombre": "Ecopreneur",         "logo": "multimedia/logos/patrocinadores/ecopreneur.png",        "alt": "Logo de Ecopreneur" },
+    { "nombre": "Ausenco Foundation", "logo": "multimedia/logos/patrocinadores/ausenco-foundation.png","alt": "Logo de Ausenco Foundation" },
+    { "nombre": "AB InBev",           "logo": "multimedia/logos/patrocinadores/abinbev.svg",           "alt": "Logo de AB InBev" }
+  ]
+}

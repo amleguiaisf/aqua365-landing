@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AQUA365 — Innovación por el Agua | ISF Chile</title>
+<meta name="description" content="AQUA365 es una iniciativa que impulsa a estudiantes universitarios a diseñar soluciones innovadoras para los desafíos del agua en comunidades vulnerables. ISF Chile, edición 2026.">
+<meta property="og:title" content="AQUA365 — Innovación por el Agua">
+<meta property="og:description" content="Transforma desafíos reales del agua en soluciones construidas junto a comunidades. Postula ahora.">
+<meta property="og:image" content="multimedia/fotos/hero-aqua365.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#main" class="skip">Saltar al contenido principal</a>
+
+<!-- ════════════════════════════════════════
+     BARRA DE CONVOCATORIA
+════════════════════════════════════════ -->
+<div id="announce-bar" class="announce" role="status" aria-label="Convocatoria activa">
+  Postulaciones AQUA365 <span data-anio>2026</span>
+  · Cierre: <strong><span data-fecha-cierre>Por definir</span></strong>
+  &nbsp;|&nbsp;
+  <a href="#" data-link="bases" target="_blank" rel="noopener noreferrer">
+    Revisa las bases →<span class="sr-only"> (abre en nueva pestaña)</span>
+  </a>
+</div>
+
+<!-- ════════════════════════════════════════
+     HEADER
+════════════════════════════════════════ -->
+<header class="header glass" id="site-header">
+  <div class="wrap">
+    <div class="hrow">
+      <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0">
+        <img id="logo-aqua365-header" class="logo-img logo-aqua"
+             src="multimedia/logos/aqua365.png"
+             alt="AQUA365 — Innovación por el Agua"
+             onerror="this.outerHTML='<span class=\'logo-txt-fallback\'>AQUA365</span>'">
+      </div>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-ul">
+          <li><a href="#programa">El programa</a></li>
+          <li><a href="#proceso">Cómo funciona</a></li>
+          <li><a href="#comunidades">Comunidades</a></li>
+          <li><a href="#experiencias">Experiencias</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" data-link="postulacion" class="bp"
+         target="_blank" rel="noopener noreferrer">
+        Postula ahora →<span class="sr-only"> (abre en nueva pestaña)</span>
+      </a>
+      <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="mnav">☰ Menú</button>
+    </div>
+
+    <nav id="mnav" class="mnav" aria-label="Menú mobile">
+      <a href="#programa">El programa</a>
+      <a href="#proceso">Cómo funciona</a>
+      <a href="#comunidades">Comunidades</a>
+      <a href="#experiencias">Experiencias</a>
+      <a href="#preguntas">Preguntas frecuentes</a>
+      <a href="#" data-link="postulacion" class="cta"
+         target="_blank" rel="noopener noreferrer">
+        Postula ahora →<span class="sr-only"> (abre en nueva pestaña)</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════
+     MAIN
+════════════════════════════════════════ -->
+<main id="main">
+
+<!-- ── HERO ──────────────────────────────────────────────────────── -->
+<section class="hero" id="hero-section" aria-labelledby="hero-title">
+
+  <!-- SVG decorativo (se oculta cuando carga la foto real) -->
+  <div class="hero-bg-svg" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#001E40"/>
+          <stop offset="55%" stop-color="#0E296F"/>
+          <stop offset="100%" stop-color="#003366"/>
+        </linearGradient>
+        <radialGradient id="g1" cx="72%" cy="22%" r="42%">
+          <stop offset="0%" stop-color="#0242B1" stop-opacity=".3"/>
+          <stop offset="100%" stop-color="#0242B1" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="g2" cx="12%" cy="82%" r="35%">
+          <stop offset="0%" stop-color="#45B4CB" stop-opacity=".14"/>
+          <stop offset="100%" stop-color="#45B4CB" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="1440" height="900" fill="url(#bg)"/>
+      <rect width="1440" height="900" fill="url(#g1)"/>
+      <rect width="1440" height="900" fill="url(#g2)"/>
+      <path d="M0,650 Q220,605 430,638 T860,612 T1250,632 T1440,618" fill="none" stroke="#45B4CB" stroke-width="1" opacity=".11"/>
+      <path d="M0,695 Q270,655 540,682 T950,660 T1440,672" fill="none" stroke="#45B4CB" stroke-width="1" opacity=".08"/>
+      <path d="M0,735 Q320,708 640,724 T1130,714 T1440,720" fill="none" stroke="#61CFF8" stroke-width=".8" opacity=".06"/>
+      <circle cx="1150" cy="185" r="280" fill="#0242B1" opacity=".17"/>
+      <circle cx="1120" cy="210" r="160" fill="#001E40" opacity=".25"/>
+      <circle cx="90" cy="730" r="120" fill="#45B4CB" opacity=".06"/>
+      <line x1="360" y1="0" x2="360" y2="900" stroke="#fff" stroke-width=".5" opacity=".025"/>
+      <line x1="720" y1="0" x2="720" y2="900" stroke="#fff" stroke-width=".5" opacity=".025"/>
+      <line x1="1080" y1="0" x2="1080" y2="900" stroke="#fff" stroke-width=".5" opacity=".025"/>
+    </svg>
+  </div>
+
+  <div class="hero-ov" style="position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(14,41,111,.97) 0%,rgba(14,41,111,.58) 50%,rgba(14,41,111,.2) 100%)" aria-hidden="true"></div>
+
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="hero-c">
+      <span class="ey ey-sky">AQUA365 · Innovación por el Agua · Edición <span data-anio>2026</span> · ISF Chile</span>
+      <h1 class="h1" id="hero-title">
+        Haz que tu<br>ingeniería llegue<br>donde más importa.
+      </h1>
+      <p class="hero-lead">
+        Súmate a un programa interdisciplinario para transformar desafíos reales del agua en soluciones construidas junto a las comunidades.
+      </p>
+      <p class="hero-frase">
+        "Los estudiantes tienen el potencial para abordar los desafíos sociales y ambientales del futuro."
+      </p>
+      <div class="hero-ctas">
+        <a href="#" data-link="postulacion" class="bp lg"
+           target="_blank" rel="noopener noreferrer">
+          Postula a AQUA365 →<span class="sr-only"> (abre en nueva pestaña)</span>
+        </a>
+        <a href="#proceso" class="bs">Conoce cómo funciona</a>
+      </div>
+      <div class="hero-badge">
+        <span class="bdot"></span>
+        <span id="stat-estudiantes">+600</span> estudiantes han sido parte de AQUA365
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ESTADÍSTICAS ───────────────────────────────────────────────── -->
+<section class="stats" aria-label="Cifras del programa">
+  <div class="wrap">
+    <div class="stats-g">
+      <div class="stat">
+        <div class="sn sky" id="stat-estudiantes-b">+600</div>
+        <div class="sl">Estudiantes participantes</div>
+        <div class="sc">Acumulado 2021–2025</div>
+      </div>
+      <div class="stat">
+        <div class="sn sand" id="stat-versiones">6</div>
+        <div class="sl">Versiones del programa</div>
+        <div class="sc">Desde la Hackatón por el Agua 2021</div>
+      </div>
+      <div class="stat">
+        <div class="sn sky" id="stat-comunidades">8</div>
+        <div class="sl">Comunidades participantes</div>
+        <div class="sc" id="stat-periodo">hasta 2025</div>
+      </div>
+      <div class="stat">
+        <div class="sn sky" id="stat-aliadas">+20</div>
+        <div class="sl">Organizaciones aliadas</div>
+        <div class="sc">Empresas, universidades e instituciones</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EL DESAFÍO DEL AGUA — 50/50 ───────────────────────────────── -->
+<section class="sec" id="programa" aria-labelledby="desafio-title">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <span class="ey ey-teal">El desafío del agua</span>
+        <h2 class="h2" id="desafio-title">El agua plantea desafíos técnicos. Resolverlos exige comprender el territorio.</h2>
+        <p class="lead" style="margin-bottom:1.25rem">
+          Millones de personas enfrentan problemas cotidianos de acceso, calidad y distribución del agua. Estos no son solo desafíos de ingeniería: requieren escuchar, comprender y actuar junto a quienes los viven.
+        </p>
+        <p class="lead" style="margin-bottom:1.5rem">
+          AQUA365 articula conocimiento académico, mentoría profesional y saber comunitario para desarrollar soluciones pertinentes, viables y construidas desde el territorio.
+        </p>
+        <p style="font-family:var(--sans);font-size:.92rem;line-height:1.65;color:var(--teal);font-weight:600;border-left:3px solid var(--aqua);padding-left:1rem;font-style:italic">
+          "Los desafíos del agua no ocurren durante una hackathon.<br>Existen los 365 días del año."
+        </p>
+      </div>
+      <div class="feature-photo">
+        <img id="foto-terreno"
+             src="multimedia/fotos/terreno.jpg"
+             alt="Estudiantes y comunidad participando en una actividad de terreno de AQUA365"
+             loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── QUÉ ES AQUA365 ─────────────────────────────────────────────── -->
+<section class="sec alt" aria-labelledby="que-title">
+  <div class="wrap">
+    <div class="sh narrow">
+      <span class="ey ey-aqua">Qué es AQUA365</span>
+      <h2 class="h2" id="que-title">Un programa para aprender haciendo, junto a otros.</h2>
+      <p class="lead">
+        AQUA365 es una iniciativa que <strong>impulsa</strong> a estudiantes universitarios a diseñar soluciones innovadoras para los desafíos del agua en comunidades vulnerables.
+      </p>
+    </div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pil-n">01</div>
+        <div class="pil-bar" style="background:var(--aqua)"></div>
+        <div class="pil-t">Aprende</div>
+        <div class="pil-b">Talleres, metodologías de design thinking e ingeniería humanitaria para abordar desafíos hídricos con enfoque técnico-social. Cuentas con diagnósticos comunitarios levantados previamente por ISF Chile.</div>
+      </div>
+      <div class="pillar">
+        <div class="pil-n">02</div>
+        <div class="pil-bar" style="background:var(--teal)"></div>
+        <div class="pil-t">Conecta</div>
+        <div class="pil-b">Equipos interdisciplinarios, comunidades activas, facilitadores y facilitadoras, mentores y mentoras profesionales, y organizaciones comprometidas con el agua y la ingeniería con propósito social.</div>
+      </div>
+      <div class="pillar">
+        <div class="pil-n">03</div>
+        <div class="pil-bar" style="background:var(--sand)"></div>
+        <div class="pil-t">Propón</div>
+        <div class="pil-b">Diseña una propuesta innovadora para un desafío hídrico real. Las propuestas seleccionadas serán validadas en el territorio y podrán ser implementadas por ISF Chile. Los equipos seleccionados podrán sumarse al voluntariado y participar del proceso.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CÓMO FUNCIONA ──────────────────────────────────────────────── -->
+<section class="sec" id="proceso" aria-labelledby="proceso-title">
+  <div class="wrap">
+    <div class="sh narrow">
+      <span class="ey ey-aqua">Cómo funciona</span>
+      <h2 class="h2" id="proceso-title">Un recorrido estructurado alrededor de un desafío real.</h2>
+      <p class="lead">Cuatro etapas desde la formación inicial hasta la presentación ante un jurado. Cada una cuenta con acompañamiento de facilitadores, facilitadoras, mentores y mentoras.</p>
+    </div>
+    <div class="stages">
+      <div class="stage done">
+        <span class="stg-n">Etapa 01</span>
+        <div class="stg-t">Formación y comprensión</div>
+        <div class="stg-b">Los equipos conocen el desafío, revisan el diagnóstico comunitario y desarrollan herramientas de ingeniería humanitaria, innovación y diseño participativo.</div>
+      </div>
+      <div class="stage done">
+        <span class="stg-n">Etapa 02</span>
+        <div class="stg-t">Territorio y diagnóstico</div>
+        <div class="stg-b">Los equipos profundizan su comprensión del desafío y reciben retroalimentación desde el territorio. La participación presencial depende de la modalidad elegida y de la coordinación del programa.</div>
+      </div>
+      <div class="stage">
+        <span class="stg-n">Etapa 03</span>
+        <div class="stg-t">Diseño y mentorías</div>
+        <div class="stg-b">Los equipos desarrollan e iteran sus soluciones. Mentores y mentoras los acompañan para robustecer sus propuestas mediante preguntas, experiencia y retroalimentación.</div>
+      </div>
+      <div class="stage">
+        <span class="stg-n">Etapa 04</span>
+        <div class="stg-t">Presentación y selección</div>
+        <div class="stg-b">Los equipos presentan su propuesta final ante un jurado de expertos y expertas. Las propuestas seleccionadas avanzan hacia un proceso de validación e implementación.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── COMUNIDADES ────────────────────────────────────────────────── -->
+<section class="sec nv" id="comunidades" aria-labelledby="comm-title">
+  <div class="wrap">
+    <div class="sh narrow">
+      <span class="ey ey-sky">Comunidades AQUA365 <span data-anio>2026</span></span>
+      <h2 class="h2 wh" id="comm-title">Las comunidades no son un ejemplo. Son el punto de partida.</h2>
+      <p class="lead wh">Cada desafío se diagnostica en terreno junto a la comunidad. Estudiantes trabajan sobre una realidad concreta que exige escucha, rigor técnico y diseño participativo.</p>
+    </div>
+
+    <div class="comm-grid">
+
+      <article class="comm-card" id="desafio-01">
+        <div class="comm-img">
+          <img src="" alt="Fotografía del desafío 01"
+               onerror="this.closest('.comm-img').classList.add('no-photo');this.style.display='none'">
+        </div>
+        <div class="comm-body">
+          <span class="ctag">Desafío 01</span>
+          <div class="cname" data-nombre>Escuela rural</div>
+          <div class="cterr" data-region>Región por definir</div>
+          <div data-detalle-wrap hidden>
+            <p class="cbody" data-detalle></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="comm-card" id="desafio-02">
+        <div class="comm-img">
+          <img src="" alt="Fotografía del desafío 02"
+               onerror="this.closest('.comm-img').classList.add('no-photo');this.style.display='none'">
+        </div>
+        <div class="comm-body">
+          <span class="ctag">Desafío 02</span>
+          <div class="cname" data-nombre>Hogar de personas mayores</div>
+          <div class="cterr" data-region>Región Metropolitana</div>
+          <div data-detalle-wrap hidden>
+            <p class="cbody" data-detalle></p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <p style="margin-top:1.5rem;font-family:var(--sans);font-size:.74rem;color:rgba(255,255,255,.28);text-align:center">
+      Nombres, fotografías y descripciones deben ser validados y autorizados por las comunidades antes de publicar.
+    </p>
+  </div>
+</section>
+
+<!-- ── TESTIMONIO ─────────────────────────────────────────────────── -->
+<section class="sec" id="experiencias" aria-labelledby="test-title">
+  <div class="wrap">
+    <span class="ey ey-aqua" style="display:block;margin-bottom:.9rem">Experiencia estudiantil</span>
+    <div class="tst-block">
+      <span aria-hidden="true" class="qmark">"</span>
+      <blockquote>
+        <p class="qtext" id="test-title">
+          Mi experiencia en AQUA365 fue muy enriquecedora y distinta a lo que uno vive normalmente en la universidad. Fue un proceso desafiante que me permitió enfrentar la realidad de llevar un proyecto a terreno, con todas sus limitaciones.
+        </p>
+        <footer>
+          <cite class="qcite">Catherine Labrín</cite>
+          <div class="qdetail">Estudiante, Universidad de Chile</div>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ── QUÉ TE LLEVAS ──────────────────────────────────────────────── -->
+<section class="sec alt" aria-labelledby="bene-title">
+  <div class="wrap">
+    <div class="sh narrow">
+      <span class="ey ey-teal">¿Qué te llevas?</span>
+      <h2 class="h2" id="bene-title">Más que un certificado: una oportunidad para aportar desde ahora.</h2>
+      <p class="lead">
+        AQUA365 te permite poner tus conocimientos al servicio de desafíos hídricos reales y aportar, desde tu etapa universitaria, al desarrollo de soluciones junto a comunidades en contexto de vulnerabilidad.
+      </p>
+    </div>
+    <div class="bene-g">
+      <div class="bene">
+        <div class="bene-bar" style="background:var(--aqua)"></div>
+        <div class="bene-t">Experiencia en un desafío real</div>
+        <div class="bene-b">Trabajas en un problema hídrico concreto diagnosticado junto a una comunidad, no en un ejercicio ficticio diseñado para el aula.</div>
+      </div>
+      <div class="bene">
+        <div class="bene-bar" style="background:var(--teal)"></div>
+        <div class="bene-t">Herramientas de innovación e ingeniería humanitaria</div>
+        <div class="bene-b">Accedes a metodologías de design thinking, diseño participativo e ingeniería humanitaria para abordar desafíos complejos con enfoque técnico-social.</div>
+      </div>
+      <div class="bene">
+        <div class="bene-bar" style="background:var(--blue)"></div>
+        <div class="bene-t">Comprensión territorial y trabajo comunitario</div>
+        <div class="bene-b">Aprendes a escuchar el territorio y a diseñar con comunidades. El punto de partida no es una hoja en blanco, sino una realidad concreta.</div>
+      </div>
+      <div class="bene">
+        <div class="bene-bar" style="background:var(--aqua)"></div>
+        <div class="bene-t">Trabajo interdisciplinario</div>
+        <div class="bene-b">Colaboras con estudiantes de distintas carreras, ampliando tu mirada más allá de tu disciplina de origen y construyendo con perspectivas diversas.</div>
+      </div>
+      <div class="bene">
+        <div class="bene-bar" style="background:var(--teal)"></div>
+        <div class="bene-t">Mentoría de profesionales</div>
+        <div class="bene-b">Recibes retroalimentación de profesionales del sector hídrico con experiencia real en campo, gestión y proyectos con comunidades.</div>
+      </div>
+      <div class="bene">
+        <div class="bene-bar" style="background:var(--blue)"></div>
+        <div class="bene-t">Certificado de participación</div>
+        <div class="bene-b">Los y las estudiantes que completen las etapas del programa y entreguen su informe final recibirán un certificado oficial de participación, de acuerdo con las bases vigentes.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── QUIÉNES PUEDEN POSTULAR ────────────────────────────────────── -->
+<section class="sec" aria-labelledby="req-title">
+  <div class="wrap">
+    <div style="max-width:46rem;margin-bottom:3.5rem">
+      <span class="ey ey-aqua">Quiénes pueden postular</span>
+      <h2 class="h2" id="req-title">Si estudias ingeniería o una carrera afín, este programa puede ser para ti.</h2>
+    </div>
+    <div class="req-g">
+      <div>
+        <p class="req-intro">
+          Pueden postular estudiantes de educación superior, de pregrado o postgrado y de distintas disciplinas. El programa es abierto e interdisciplinario, aunque está especialmente orientado a estudiantes de carreras con base científica que quieran aplicar sus conocimientos a desafíos reales.
+        </p>
+        <ul class="req-list" aria-label="Condiciones de participación">
+          <li class="req-item">
+            <span class="rdot"></span>
+            <div>
+              <div class="rlbl">Modalidad</div>
+              <div class="rval" id="req-modalidad">Híbrida, con opción de participación completamente online</div>
+              <div class="rval-sub">Quienes elijan la modalidad online podrán participar en las actividades formativas, el trabajo de equipo y las mentorías, pero no en las visitas presenciales a terreno.</div>
+            </div>
+          </li>
+          <li class="req-item">
+            <span class="rdot"></span>
+            <div>
+              <div class="rlbl">Dedicación estimada</div>
+              <div class="rval" id="req-dedicacion">3 horas semanales</div>
+            </div>
+          </li>
+          <li class="req-item">
+            <span class="rdot"></span>
+            <div>
+              <div class="rlbl">Costo de participación</div>
+              <div class="rval" id="req-costo">$0</div>
+              <div class="rval-sub">Este programa y la implementación de los proyectos son posibles gracias a nuestras empresas aliadas, comprometidas con el desarrollo de las comunidades y con el fortalecimiento de las capacidades de los y las estudiantes.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="dates-card" aria-label="Fechas clave del programa">
+          <div class="dates-t">Fechas clave <span data-anio>2026</span></div>
+          <div class="drow" id="fila-apertura" hidden>
+            <span class="dlbl">Apertura de postulaciones</span>
+            <span class="dval" data-fecha-valor>–</span>
+          </div>
+          <div class="drow" id="fila-cierre" hidden>
+            <span class="dlbl">Cierre de postulaciones</span>
+            <span class="dval" data-fecha-valor>–</span>
+          </div>
+          <div class="drow" id="fila-inicio" hidden>
+            <span class="dlbl">Inicio del programa</span>
+            <span class="dval" data-fecha-valor>–</span>
+          </div>
+          <div class="drow" id="fila-terreno" hidden>
+            <span class="dlbl">Visitas a terreno</span>
+            <span class="dval" data-fecha-valor>–</span>
+          </div>
+          <div class="drow" id="fila-mentoria-01" hidden>
+            <span class="dlbl">Primeras mentorías</span>
+            <span class="dval" data-fecha-valor>–</span>
+          </div>
+          <div class="drow" id="fila-presentacion-final" hidden>
+            <span class="dlbl">Presentación final</span>
+            <span class="dval" data-fecha-valor>–</span>
+          </div>
+          <!-- Placeholder visible hasta que JS cargue las fechas -->
+          <div class="drow" id="fila-placeholder" style="justify-content:center">
+            <span class="dlbl" style="color:rgba(255,255,255,.35);font-style:italic">Las fechas se publicarán pronto</span>
+          </div>
+        </div>
+        <div class="nbox">
+          <strong style="color:var(--navy)">Bases de postulación</strong><br>
+          Antes de postular, revisa las bases oficiales con todos los términos y condiciones del programa <span data-anio>2026</span>.
+          <a href="#" data-link="bases" target="_blank" rel="noopener noreferrer"
+             style="display:inline-block;margin-top:.4rem">
+            Descargar bases →<span class="sr-only"> (abre en nueva pestaña)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PATROCINADORES Y ALIADOS ───────────────────────────────────── -->
+<section class="sec alt sm" aria-labelledby="spon-title">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:3rem">
+      <span class="ey ey-aqua" style="display:block;text-align:center">Alianzas y respaldo</span>
+      <h2 class="h2" id="spon-title" style="text-align:center;font-size:1.75rem">
+        Respaldado por organizaciones comprometidas con el agua y el desarrollo de las comunidades.
+      </h2>
+    </div>
+
+    <!-- Organiza -->
+    <div class="spon-cat">
+      <div class="spon-lbl">Organiza</div>
+      <div class="logos-row">
+        <div class="organizer-item">
+          <img id="logo-isf-organizer"
+               src="multimedia/logos/isf-chile.png"
+               alt="Ingeniería Sin Fronteras Chile"
+               onerror="this.outerHTML='<span class=\'logo-txt-fallback\'>ISF Chile</span>'">
+        </div>
+        <div class="organizer-item">
+          <img id="logo-uchile"
+               src="multimedia/logos/uchile-fcfm.png"
+               alt="FCFM — Dirección de Vinculación Externa, Facultad de Ciencias Físicas y Matemáticas, Universidad de Chile"
+               onerror="this.outerHTML='<span class=\'logo-txt-fallback\'>FCFM U. de Chile</span>'">
+        </div>
+      </div>
+    </div>
+
+    <hr class="sdiv">
+
+    <!-- Patrocinan (generados desde contenido_aqua365.txt) -->
+    <div class="spon-cat" style="margin-bottom:1rem">
+      <div class="spon-lbl">Patrocinan</div>
+      <div class="logos-row" id="sponsors-list">
+        <!-- JS genera los logos desde contenido_aqua365.txt -->
+        <!-- Fallback si JS no carga: -->
+        <noscript>
+          <span style="font-family:sans-serif;font-size:.8rem;color:#666">
+            Los logos de patrocinadores se cargan con JavaScript habilitado.
+          </span>
+        </noscript>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── PREGUNTAS FRECUENTES ───────────────────────────────────────── -->
+<section class="sec" id="preguntas" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="sh narrow">
+      <span class="ey ey-aqua">Preguntas frecuentes</span>
+      <h2 class="h2" id="faq-title">Respuestas directas antes de postular.</h2>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Quiénes pueden postular?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>Pueden postular estudiantes de educación superior, de pregrado o postgrado y de distintas disciplinas. El programa es abierto e interdisciplinario, aunque está especialmente orientado a estudiantes de carreras con base científica. No se exige pertenecer a una universidad específica ni tener un avance curricular determinado.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Necesito experiencia previa?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>No. El programa incluye capacitaciones, materiales de referencia, diagnósticos comunitarios, acompañamiento y mentorías. Lo más importante es tener disposición para aprender, trabajar en equipo y comprometerse con un desafío real.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Cuánto tiempo debo dedicar?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>La dedicación estimada es de 3 horas semanales. Algunas semanas pueden concentrar actividades relevantes, como mentorías, hitos de presentación o visitas a terreno.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿El programa es presencial, online o híbrido?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>El programa es híbrido y también cuenta con una opción de participación completamente online. Quienes participen online podrán integrarse a las actividades formativas, el trabajo de equipo y las mentorías, pero no podrán participar en las visitas presenciales a terreno.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Tiene algún costo?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>No. La participación es gratuita. El programa y la implementación de los proyectos son posibles gracias a empresas aliadas comprometidas con el desarrollo de las comunidades y con las capacidades de los y las estudiantes.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Puedo postular junto a compañeros o compañeras?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>Sí. Puedes postular con el equipo parcial o completamente conformado. Si te inscribes de manera individual, la organización del programa te contactará para apoyar la conformación de un equipo.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Qué apoyo reciben los equipos?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>Los equipos reciben capacitaciones, diagnósticos y materiales sobre las comunidades, acompañamiento de facilitadores y facilitadoras, mentorías con profesionales e instancias de retroalimentación durante el desarrollo de la propuesta.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Qué ocurre con las propuestas desarrolladas?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>Las propuestas finales son presentadas ante un jurado de expertos y expertas. Las propuestas seleccionadas serán validadas en el territorio y podrán ser implementadas por Ingeniería Sin Fronteras Chile. Los equipos seleccionados podrán sumarse al voluntariado y participar del proceso de validación e implementación.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Cómo se trabaja con las comunidades?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>Las comunidades participan en la comprensión del desafío y retroalimentan las propuestas desde su conocimiento del territorio. El proceso busca diseñar con las comunidades y no solamente para ellas. Las visitas presenciales son coordinadas por la organización para asegurar una relación respetuosa y pertinente.</p>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false">
+          <span>¿Recibiré un certificado?</span><span class="fchev" aria-hidden="true">▾</span>
+        </button>
+        <div class="faq-body-wrap"><div class="faq-body-inner">
+          <p>Sí. Los y las estudiantes que completen las etapas del programa y entreguen su informe final recibirán un certificado oficial de participación, de acuerdo con las bases vigentes.</p>
+        </div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA FINAL ──────────────────────────────────────────────────── -->
+<section class="cta-fin" id="postula" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="cta-in">
+      <h2 class="cta-h" id="cta-title">El próximo desafío necesita nuevas miradas. Puede empezar contigo.</h2>
+      <p class="cta-lead">AQUA365 <span data-anio>2026</span> convoca a estudiantes de ingeniería y carreras afines a transformar desafíos reales del agua en propuestas construidas junto a las comunidades.</p>
+      <div class="cta-meta">
+        <span class="cmi"><span class="mdot"></span>Cierre de postulaciones: <strong style="color:var(--sand);margin-left:.3rem"><span data-fecha-cierre>Por definir</span></strong></span>
+        <span class="cmi"><span class="mdot"></span>Sin costo de participación</span>
+      </div>
+      <div class="cta-acts">
+        <a href="#" data-link="postulacion" class="bp lg"
+           target="_blank" rel="noopener noreferrer">
+          Comenzar mi postulación →<span class="sr-only"> (abre en nueva pestaña)</span>
+        </a>
+        <a href="#" data-link="bases" class="ctlink"
+           target="_blank" rel="noopener noreferrer">
+          Descarga las bases<span class="sr-only"> (abre en nueva pestaña)</span>
+        </a>
+        <a href="mailto:aqua365@isf-chile.org" data-correo class="ctlink">
+          aqua365@isf-chile.org
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <div class="ft">
+      <div>
+        <div class="flogos">
+          <img id="logo-aqua365-footer" class="flogo-aqua"
+               src="multimedia/logos/aqua365.png"
+               alt="AQUA365 — Innovación por el Agua"
+               onerror="this.outerHTML='<span class=\'logo-txt-fallback\' style=\'color:rgba(255,255,255,.6);font-size:.75rem\'>AQUA365</span>'">
+        </div>
+        <p class="fdesc">AQUA365 es una iniciativa que <strong style="color:rgba(255,255,255,.65)">impulsa</strong> a estudiantes universitarios a diseñar soluciones innovadoras para los desafíos del agua en comunidades vulnerables.</p>
+        <div class="fsoc">
+          <a href="https://www.instagram.com/aqua365.chile/" data-link="instagram"
+             target="_blank" rel="noopener noreferrer">
+            Instagram<span class="sr-only"> (abre en nueva pestaña)</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="fcol">
+        <h4>El programa</h4>
+        <ul>
+          <li><a href="#programa">Qué es AQUA365</a></li>
+          <li><a href="#proceso">Cómo funciona</a></li>
+          <li><a href="#comunidades">Comunidades</a></li>
+          <li><a href="#experiencias">Testimonios</a></li>
+        </ul>
+      </div>
+
+      <div class="fcol">
+        <h4>Postulación</h4>
+        <ul>
+          <li><a href="#" data-link="bases" target="_blank" rel="noopener noreferrer">Bases del programa<span class="sr-only"> (nueva pestaña)</span></a></li>
+          <li><a href="#" data-link="postulacion" target="_blank" rel="noopener noreferrer">Formulario<span class="sr-only"> (nueva pestaña)</span></a></li>
+          <li><a href="#preguntas">Preguntas frecuentes</a></li>
+          <li><a href="mailto:aqua365@isf-chile.org" data-correo>aqua365@isf-chile.org</a></li>
+        </ul>
+      </div>
+
+      <div class="fcol">
+        <h4>ISF Chile</h4>
+        <ul>
+          <li><a href="https://isf-chile.org" target="_blank" rel="noopener noreferrer">Sobre ISF Chile<span class="sr-only"> (nueva pestaña)</span></a></li>
+          <li><a href="https://isf-chile.org/proyectos" target="_blank" rel="noopener noreferrer">Otros programas<span class="sr-only"> (nueva pestaña)</span></a></li>
+          <li><a href="https://isf-chile.org/empresas" target="_blank" rel="noopener noreferrer">Alianzas corporativas<span class="sr-only"> (nueva pestaña)</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fb">
+      <span>© <span data-anio>2026</span> Ingeniería Sin Fronteras Chile · AQUA365</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
