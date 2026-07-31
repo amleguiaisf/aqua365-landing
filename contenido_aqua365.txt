@@ -8,7 +8,7 @@
     "costo": "$0",
     "correo": "aqua365@isf-chile.org",
     "link_postulacion": "https://docs.google.com/forms/d/e/1FAIpQLSeHCEtHb5_3_Kumxvfl9p5xmol3zs-gvbi5UszIfeLUGmTVRg/viewform?usp=sharing&ouid=117672066986426709379",
-    "link_bases": "https://drive.google.com/file/d/1jK4JGGPUl907DN6Pfdbn4ZcYrxv3Gf2k/view?usp=sharing",
+    "link_bases": "https://drive.google.com/file/d/19eWQkTYedhZ0cB9RjvMhDeLQCSAaYqgx/view?usp=sharing",
     "instagram": "https://www.instagram.com/aqua365.chile/"
   },
   "cifras": {
