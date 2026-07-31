@@ -23,7 +23,7 @@
       "id": "desafio-01",
       "nombre": "Escuela rural",
       "region": "Región de Valparaíso",
-      "detalle": "Comunidad educativa rural de Olmué, integrada por 100 estudiantes y 25 funcionarios, se abastece mediante un camión aljibe que entrega agua dos veces por semana. El desafío busca proponer mejoras para el almacenamiento de agua potable, abordar los malos olores del sistema de aguas grises y reducir las inundaciones que afectan algunos sectores del establecimiento.",
+      "detalle": "Comunidad educativa rural de Olmué, integrada por 100 estudiantes y 25 funcionarios, se abastece mediante un camión aljibe que entrega agua dos veces por semana. El desafío busca proponer mejoras para el almacenamiento de agua potable del establecimiento.",
       "imagen": "multimedia/fotos/desafio-01.jpg",
       "alt": "[POR DEFINIR: descripción contextual de la fotografía]"
     },
