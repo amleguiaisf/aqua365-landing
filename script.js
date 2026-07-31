@@ -228,6 +228,72 @@
     });
   }
 
+  /* ── Carrusel de etapas ────────────────────────────────────────── */
+  function initJourneyCarousel() {
+    const carousel = document.getElementById('journey-carousel');
+    if (!carousel) return;
+
+    const slides = Array.from(carousel.querySelectorAll('.journey-slide'));
+    const dots = Array.from(carousel.querySelectorAll('.journey-dot'));
+    const prev = carousel.querySelector('.journey-arrow.prev');
+    const next = carousel.querySelector('.journey-arrow.next');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let current = 0;
+    let timer = null;
+    let pointerStart = null;
+
+    function show(index) {
+      current = (index + slides.length) % slides.length;
+      slides.forEach((slide, i) => {
+        const active = i === current;
+        slide.classList.toggle('active', active);
+        slide.setAttribute('aria-hidden', String(!active));
+      });
+      dots.forEach((dot, i) => {
+        const active = i === current;
+        dot.classList.toggle('active', active);
+        if (active) dot.setAttribute('aria-current', 'true');
+        else dot.removeAttribute('aria-current');
+      });
+    }
+
+    function stop() {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+    }
+
+    function start() {
+      stop();
+      if (!reduceMotion) timer = window.setInterval(() => show(current + 1), 5000);
+    }
+
+    prev.addEventListener('click', () => { show(current - 1); start(); });
+    next.addEventListener('click', () => { show(current + 1); start(); });
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        show(Number(dot.dataset.goTo));
+        start();
+      });
+    });
+
+    carousel.addEventListener('mouseenter', stop);
+    carousel.addEventListener('mouseleave', start);
+    carousel.addEventListener('focusin', stop);
+    carousel.addEventListener('focusout', start);
+    carousel.addEventListener('pointerdown', e => { pointerStart = e.clientX; });
+    carousel.addEventListener('pointerup', e => {
+      if (pointerStart === null) return;
+      const movement = e.clientX - pointerStart;
+      pointerStart = null;
+      if (Math.abs(movement) < 45) return;
+      show(current + (movement < 0 ? 1 : -1));
+      start();
+    });
+
+    show(0);
+    start();
+  }
+
   /* ── Smooth scroll ─────────────────────────────────────────────── */
   function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(a => {
@@ -275,6 +341,7 @@
     cargarContenido();
     initMobileMenu();
     initFAQ();
+    initJourneyCarousel();
     initSmoothScroll();
     initFadeIn();
   });

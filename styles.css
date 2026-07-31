@@ -185,6 +185,35 @@ a { color: inherit; }
 .qdetail { font-family: var(--sans); font-size: .82rem; color: var(--slate); }
 @media (max-width: 640px) { .tst-block { padding-left: 1.5rem; } }
 
+/* ── Journey carousel ────────────────────────────────────────────── */
+.journey-section { padding: 5.5rem 0; background: var(--mist50); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.journey-head { margin-bottom: 2rem; }
+.journey-head .ey { margin-bottom: .65rem; }
+.journey-head .h2 { margin-bottom: 0; font-size: clamp(1.65rem, 3vw, 2.5rem); }
+.journey-carousel { position: relative; background: var(--navy); overflow: hidden; box-shadow: 0 18px 45px rgba(14,41,111,.14); }
+.journey-track { position: relative; aspect-ratio: 1903 / 702; }
+.journey-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity 500ms ease; }
+.journey-slide.active { opacity: 1; visibility: visible; }
+.journey-slide img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.journey-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 48px; height: 58px; border: 1px solid rgba(255,255,255,.5); background: rgba(14,41,111,.8); color: #fff; font-family: var(--sans); font-size: 2.1rem; line-height: 1; cursor: pointer; transition: background var(--t), border-color var(--t); }
+.journey-arrow:hover { background: var(--blue); border-color: #fff; }
+.journey-arrow:focus-visible { outline: 3px solid var(--sand); outline-offset: 2px; }
+.journey-arrow.prev { left: 1rem; }
+.journey-arrow.next { right: 1rem; }
+.journey-dots { display: flex; justify-content: center; gap: .65rem; padding: 1rem; background: var(--white); }
+.journey-dot { width: 10px; height: 10px; padding: 0; border: 1px solid var(--blue); border-radius: 50%; background: transparent; cursor: pointer; transition: background var(--t), transform var(--t); }
+.journey-dot.active { background: var(--blue); transform: scale(1.18); }
+.journey-dot:focus-visible { outline: 3px solid var(--sand); outline-offset: 3px; }
+@media (max-width: 640px) {
+  .journey-section { padding: 4rem 0; }
+  .journey-arrow { width: 38px; height: 48px; font-size: 1.7rem; }
+  .journey-arrow.prev { left: .4rem; }
+  .journey-arrow.next { right: .4rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .journey-slide { transition: none; }
+}
+
 /* ── Benefits ────────────────────────────────────────────────────── */
 .bene-g { display: grid; grid-template-columns: repeat(3,1fr); gap: 2px; background: var(--line); margin-top: 3rem; }
 .bene { background: var(--white); padding: 2.25rem 2rem; border-bottom: 3px solid transparent; transition: border-color var(--t); }
