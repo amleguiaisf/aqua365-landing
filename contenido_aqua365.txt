@@ -54,9 +54,9 @@
   },
   "patrocinadores": [
     { "nombre": "Bechtel",            "logo": "multimedia/logos/patrocinadores/bechtel.png",           "alt": "Logo de Bechtel" },
-    { "nombre": "Xylem",              "logo": "multimedia/logos/patrocinadores/xylem.png",             "alt": "Logo de Xylem — Let's Solve Water" },
+    { "nombre": "Xylem",              "logo": "multimedia/logos/patrocinadores/xylem.png",             "alt": "Logo de Xylem" },
     { "nombre": "Ecopreneur",         "logo": "multimedia/logos/patrocinadores/ecopreneur.png",        "alt": "Logo de Ecopreneur" },
     { "nombre": "Ausenco Foundation", "logo": "multimedia/logos/patrocinadores/ausenco-foundation.png","alt": "Logo de Ausenco Foundation" },
-    { "nombre": "AB InBev",           "logo": "multimedia/logos/patrocinadores/abinbev.svg",           "alt": "Logo de AB InBev" }
+    { "nombre": "AB InBev",           "logo": "multimedia/logos/patrocinadores/abinbev.png",           "alt": "Logo de AB-InBev" }
   ]
 }
