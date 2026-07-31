@@ -253,8 +253,8 @@ a { color: inherit; }
 .organizer-item { background: var(--white); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; padding: 1.15rem 2rem; height: 105px; min-width: 220px; border-radius: 2px; }
 .organizer-item img { max-height: 72px; max-width: 260px; width: auto; height: auto; object-fit: contain; }
 .organizer-item .logo-txt-fallback { font-size: .75rem; font-weight: 800; color: var(--navy); text-transform: uppercase; letter-spacing: .05em; }
-.logo-item { background: var(--white); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; padding: .9rem 1.5rem; height: 68px; min-width: 130px; max-width: 200px; border-radius: 2px; }
-.logo-item img { max-height: 40px; max-width: 160px; width: auto; height: auto; object-fit: contain; }
+.logo-item { background: var(--white); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; padding: .9rem 1.5rem; height: 82px; min-width: 156px; max-width: 240px; border-radius: 2px; }
+.logo-item img { max-height: 48px; max-width: 192px; width: auto; height: auto; object-fit: contain; }
 .logo-txt-fb { font-family: var(--sans); font-size: .65rem; font-weight: 700; color: var(--slate); text-align: center; text-transform: uppercase; letter-spacing: .05em; }
 .sdiv { border: none; border-top: 1px solid var(--line); margin: 0 0 2.5rem; }
 
